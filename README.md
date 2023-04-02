@@ -64,7 +64,7 @@ $data = [
     'chat_id' => '796251625',
 ];
 
-$a = file_get_contents("https://api.telegram.org/bot$token/sendMessage?" . http_build_query($data));
+$a = file_get_contents("https://api.telegram.org/$token/sendMessage?" . http_build_query($data));
 ```
 
 ![](/preview/prewiew9.png)
